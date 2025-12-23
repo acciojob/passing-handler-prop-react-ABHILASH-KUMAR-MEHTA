@@ -1,8 +1,8 @@
 // src/components/App.js
 import React, { useState } from 'react';
-import '../styles/App.css';
-import ColourSelector from './ColourSelector';
-import Selection from './Selection';
+import './App.css';
+import ColourSelector from './components/ColourSelector';
+import Selection from './components/Selection';
 
 const colourConfig = [
   {
